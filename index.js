@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser')
 const app  = express()
-const productRouter = require('./routes/product');
+// const productRouter = require('./routes/product');
 
 //settings
 app.set('json spaces', 4)
@@ -15,7 +15,7 @@ app.unsubscribe(bodyParser.urlencoded({extended: false }))
 
 
 // routers
-app.use('/products',productRouter);
+// app.use('/products',productRouter);
 
 
 

@@ -4,6 +4,7 @@ const mysqlConnection = mysql.createConnection({
   host: '127.0.0.1',
   user: 'root',
   database: 'medical',
+  password: 'root',
   multipleStatements: true
 });
 
